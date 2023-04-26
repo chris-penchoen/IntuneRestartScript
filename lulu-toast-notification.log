@@ -1,0 +1,210 @@
+2023-04-24 15:21:03 INFO: ToastNotificationScript registry path not found. Creating it: HKCU:\SOFTWARE\ToastNotificationScript
+2023-04-24 15:21:03 INFO: CustomScriptPath not found. Creating it: C:\Users\cpenchoen\AppData\Roaming\ToastNotificationScript\Scripts
+2023-04-24 15:21:04 INFO: Running supported version of Windows. Windows 10 and workstation OS detected
+2023-04-24 15:21:04 INFO: Script is initially running in USER context
+2023-04-24 15:21:04 INFO: Specified config file seems hosted [online]. Treating it accordingly
+2023-04-24 15:21:04 INFO: Successfully loaded https://static.staticsave.com/uptimerebootv1/testingconfig.xml
+2023-04-24 15:21:04 INFO: Loading xml content from https://static.staticsave.com/uptimerebootv1/testingconfig.xml into variables
+2023-04-24 15:21:05 INFO: Successfully loaded xml content from https://static.staticsave.com/uptimerebootv1/testingconfig.xml
+2023-04-24 15:21:05 ERROR: Error. Conflicting selection in the https://static.staticsave.com/uptimerebootv1/testingconfig.xml file
+2023-04-24 15:21:05 ERROR: Error. You can't have both PowerShell app set to True AND CustomNotificationApp set to True at the same time. Check your config
+2023-04-25 11:10:01 INFO: Running supported version of Windows. Windows 10 and workstation OS detected
+2023-04-25 11:10:01 INFO: Script is initially running in USER context
+2023-04-25 11:10:01 INFO: Specified config file seems hosted [online]. Treating it accordingly
+2023-04-25 11:10:01 INFO: Successfully loaded https://static.staticsave.com/uptimerebootv1/testingconfig.xml
+2023-04-25 11:10:01 INFO: Loading xml content from https://static.staticsave.com/uptimerebootv1/testingconfig.xml into variables
+2023-04-25 11:10:02 INFO: Successfully loaded xml content from https://static.staticsave.com/uptimerebootv1/testingconfig.xml
+2023-04-25 11:10:02 ERROR: Error. Conflicting selection in the https://static.staticsave.com/uptimerebootv1/testingconfig.xml file
+2023-04-25 11:10:02 ERROR: Error. You can't have both PowerShell app set to True AND CustomNotificationApp set to True at the same time. Check your config
+2023-04-25 11:12:09 INFO: Running supported version of Windows. Windows 10 and workstation OS detected
+2023-04-25 11:12:09 INFO: Script is initially running in USER context
+2023-04-25 11:12:09 INFO: Specified config file seems hosted [online]. Treating it accordingly
+2023-04-25 11:12:10 INFO: Successfully loaded https://static.staticsave.com/uptimerebootv1/testingconfig.xml
+2023-04-25 11:12:10 INFO: Loading xml content from https://static.staticsave.com/uptimerebootv1/testingconfig.xml into variables
+2023-04-25 11:12:10 INFO: Successfully loaded xml content from https://static.staticsave.com/uptimerebootv1/testingconfig.xml
+2023-04-25 11:12:10 ERROR: Error. Conflicting selection in the https://static.staticsave.com/uptimerebootv1/testingconfig.xml file
+2023-04-25 11:12:10 ERROR: Error. You can't have both PowerShell app set to True AND CustomNotificationApp set to True at the same time. Check your config
+2023-04-25 11:14:35 INFO: Running supported version of Windows. Windows 10 and workstation OS detected
+2023-04-25 11:14:35 INFO: Script is initially running in USER context
+2023-04-25 11:14:35 INFO: Specified config file seems hosted [online]. Treating it accordingly
+2023-04-25 11:14:35 INFO: Successfully loaded https://static.staticsave.com/uptimerebootv1/testingconfig.xml
+2023-04-25 11:14:35 INFO: Loading xml content from https://static.staticsave.com/uptimerebootv1/testingconfig.xml into variables
+2023-04-25 11:14:35 INFO: Successfully loaded xml content from https://static.staticsave.com/uptimerebootv1/testingconfig.xml
+2023-04-25 11:14:35 INFO: ToastLogoImage appears to be hosted online. Will need to download the file
+2023-04-25 11:14:37 INFO: Successfully downloaded C:\Users\CPENCH~1\AppData\Local\Temp\ToastLogoImage.jpg from https://i.imgur.com/NCjIbXD.jpg
+2023-04-25 11:14:37 INFO: ToastHeroImage appears to be hosted online. Will need to download the file
+2023-04-25 11:14:38 INFO: Successfully downloaded C:\Users\CPENCH~1\AppData\Local\Temp\ToastHeroImage.jpg from https://i.imgur.com/CN85GYb.jpg
+2023-04-25 11:14:38 INFO: CreateScriptsAndProtocols set to True. Will allow creation of scripts and protocols
+2023-04-25 11:14:38 INFO: Registry value of ScriptsAndProtocolsVersion does not match Script version: 2.3.0
+2023-04-25 11:14:38 INFO: Creating scripts and protocols for the logged on user
+2023-04-25 11:14:38 INFO: Running Write-CustomActionRegistry function: ToastReboot
+2023-04-25 11:14:38 INFO: Running Write-CustomActionRegistry function: ToastRunApplicationID
+2023-04-25 11:14:38 INFO: Running Write-CustomActionRegistry function: ToastRunPackageID
+2023-04-25 11:14:38 INFO: Running Write-CustomActionRegistry function: ToastRunUpdateID
+2023-04-25 11:14:38 INFO: Running Write-CustomActionScript function: ToastReboot
+2023-04-25 11:14:38 INFO: Running Write-CustomActionScript function: ToastRunApplicationID
+2023-04-25 11:14:38 INFO: Running Write-CustomActionScript function: ToastRunPackageID
+2023-04-25 11:14:38 INFO: Running Write-CustomActionScript function: ToastRunUpdateID
+2023-04-25 11:14:38 INFO: Running Write-CustomActionScript function: InvokePSScriptAsUser
+2023-04-25 11:14:38 INFO: Running Get-DeviceUptime function
+2023-04-25 11:14:38 INFO: PendingRebootUptime set to True. Checking for device uptime. Current uptime is: 7 days
+2023-04-25 11:14:38 INFO: Greeting with given name selected. Replacing HeaderText
+2023-04-25 11:14:38 INFO: Greeting with Good morning
+2023-04-25 11:14:38 INFO: Running Get-GivenName function
+2023-04-25 11:14:55 ERROR: Current security context is not associated with an Active Directory domain or forest.
+2023-04-25 11:14:55 INFO: Given name not found in AD or no local AD is available. Continuing looking for given name elsewhere
+2023-04-25 11:14:55 INFO: Given name found directly in registry: Christopher
+2023-04-25 11:14:55 INFO: Creating the xml for no dismiss button
+2023-04-25 11:14:55 INFO: Creating the xml for displaying the second action button: actionbutton2
+2023-04-25 11:14:55 WARNING: This will always enable both action buttons and the dismiss button
+2023-04-25 11:14:55 WARNING: Replacing any previous formatting of the toast xml
+2023-04-25 11:14:55 WARNING: Conditions for displaying toast notifications for UpgradeOS are not fulfilled
+2023-04-25 11:14:55 INFO: Toast notification is used in regards to pending reboot. Uptime count is greater than -1
+2023-04-25 11:14:55 INFO: Confirmed USER context before displaying toast
+2023-04-25 11:14:55 ERROR: Something went wrong when displaying the toast notification
+2023-04-25 11:14:55 ERROR: Make sure the script is running as the logged on user
+2023-04-25 13:02:50 INFO: Running supported version of Windows. Windows 10 and workstation OS detected
+2023-04-25 13:02:50 INFO: Script is initially running in USER context
+2023-04-25 13:02:50 INFO: Specified config file seems hosted [online]. Treating it accordingly
+2023-04-25 13:02:50 INFO: Successfully loaded https://static.staticsave.com/uptimerebootv1/testingconfig.xml
+2023-04-25 13:02:50 INFO: Loading xml content from https://static.staticsave.com/uptimerebootv1/testingconfig.xml into variables
+2023-04-25 13:02:50 INFO: Successfully loaded xml content from https://static.staticsave.com/uptimerebootv1/testingconfig.xml
+2023-04-25 13:02:50 INFO: ToastLogoImage appears to be hosted online. Will need to download the file
+2023-04-25 13:02:51 INFO: Successfully downloaded C:\Users\CPENCH~1\AppData\Local\Temp\ToastLogoImage.jpg from https://i.imgur.com/NCjIbXD.jpg
+2023-04-25 13:02:51 INFO: ToastHeroImage appears to be hosted online. Will need to download the file
+2023-04-25 13:02:52 INFO: Successfully downloaded C:\Users\CPENCH~1\AppData\Local\Temp\ToastHeroImage.jpg from https://i.imgur.com/CN85GYb.jpg
+2023-04-25 13:02:52 INFO: CreateScriptsAndProtocols set to True. Will allow creation of scripts and protocols
+2023-04-25 13:02:52 INFO: Script version: 2.3.0 matches value of ScriptsAndProtocolsVersion in registry. Not creating custom scripts and protocols
+2023-04-25 13:02:52 INFO: Running Get-DeviceUptime function
+2023-04-25 13:02:52 INFO: PendingRebootUptime set to True. Checking for device uptime. Current uptime is: 8 days
+2023-04-25 13:02:52 INFO: Greeting with given name selected. Replacing HeaderText
+2023-04-25 13:02:52 INFO: Greeting with Good afternoon
+2023-04-25 13:02:52 INFO: Running Get-GivenName function
+2023-04-25 13:03:09 ERROR: Current security context is not associated with an Active Directory domain or forest.
+2023-04-25 13:03:09 INFO: Given name not found in AD or no local AD is available. Continuing looking for given name elsewhere
+2023-04-25 13:03:09 INFO: Given name found directly in registry: Christopher
+2023-04-25 13:03:09 INFO: Creating the xml for no dismiss button
+2023-04-25 13:03:09 INFO: Creating the xml for displaying the second action button: actionbutton2
+2023-04-25 13:03:09 WARNING: This will always enable both action buttons and the dismiss button
+2023-04-25 13:03:09 WARNING: Replacing any previous formatting of the toast xml
+2023-04-25 13:03:09 WARNING: Conditions for displaying toast notifications for UpgradeOS are not fulfilled
+2023-04-25 13:03:09 INFO: Toast notification is used in regards to pending reboot. Uptime count is greater than -1
+2023-04-25 13:03:09 INFO: Confirmed USER context before displaying toast
+2023-04-25 13:03:09 ERROR: Something went wrong when displaying the toast notification
+2023-04-25 13:03:09 ERROR: Make sure the script is running as the logged on user
+2023-04-25 13:10:18 INFO: Running supported version of Windows. Windows 10 and workstation OS detected
+2023-04-25 13:10:18 INFO: Script is initially running in USER context
+2023-04-25 13:10:18 INFO: Specified config file seems hosted [online]. Treating it accordingly
+2023-04-25 13:10:18 INFO: Successfully loaded https://static.staticsave.com/uptimerebootv1/testingconfig.xml
+2023-04-25 13:10:18 INFO: Loading xml content from https://static.staticsave.com/uptimerebootv1/testingconfig.xml into variables
+2023-04-25 13:10:18 INFO: Successfully loaded xml content from https://static.staticsave.com/uptimerebootv1/testingconfig.xml
+2023-04-25 13:10:18 INFO: ToastLogoImage appears to be hosted online. Will need to download the file
+2023-04-25 13:10:19 INFO: Successfully downloaded C:\Users\CPENCH~1\AppData\Local\Temp\ToastLogoImage.jpg from https://i.imgur.com/NCjIbXD.jpg
+2023-04-25 13:10:19 INFO: ToastHeroImage appears to be hosted online. Will need to download the file
+2023-04-25 13:10:21 INFO: Successfully downloaded C:\Users\CPENCH~1\AppData\Local\Temp\ToastHeroImage.jpg from https://i.imgur.com/CN85GYb.jpg
+2023-04-25 13:10:21 INFO: CreateScriptsAndProtocols set to True. Will allow creation of scripts and protocols
+2023-04-25 13:10:21 INFO: Script version: 2.3.0 matches value of ScriptsAndProtocolsVersion in registry. Not creating custom scripts and protocols
+2023-04-25 13:10:21 INFO: Running Get-DeviceUptime function
+2023-04-25 13:10:21 INFO: PendingRebootUptime set to True. Checking for device uptime. Current uptime is: 8 days
+2023-04-25 13:10:21 INFO: Greeting with given name selected. Replacing HeaderText
+2023-04-25 13:10:21 INFO: Greeting with Good afternoon
+2023-04-25 13:10:21 INFO: Running Get-GivenName function
+2023-04-25 13:10:36 ERROR: Current security context is not associated with an Active Directory domain or forest.
+2023-04-25 13:10:36 INFO: Given name not found in AD or no local AD is available. Continuing looking for given name elsewhere
+2023-04-25 13:10:36 INFO: Given name found directly in registry: Christopher
+2023-04-25 13:10:36 INFO: Creating the xml for no dismiss button
+2023-04-25 13:10:36 INFO: Creating the xml for displaying the second action button: actionbutton2
+2023-04-25 13:10:36 WARNING: This will always enable both action buttons and the dismiss button
+2023-04-25 13:10:36 WARNING: Replacing any previous formatting of the toast xml
+2023-04-25 13:10:36 WARNING: Conditions for displaying toast notifications for UpgradeOS are not fulfilled
+2023-04-25 13:10:36 INFO: Toast notification is used in regards to pending reboot. Uptime count is greater than -1
+2023-04-25 13:10:36 INFO: Confirmed USER context before displaying toast
+2023-04-25 13:10:36 ERROR: Something went wrong when displaying the toast notification
+2023-04-25 13:10:36 ERROR: Make sure the script is running as the logged on user
+2023-04-25 13:25:15 INFO: Running supported version of Windows. Windows 10 and workstation OS detected
+2023-04-25 13:25:15 INFO: Script is initially running in USER context
+2023-04-25 13:25:15 INFO: Specified config file seems hosted [online]. Treating it accordingly
+2023-04-25 13:25:16 INFO: Successfully loaded https://static.staticsave.com/uptimerebootv1/testingconfig.xml
+2023-04-25 13:25:16 INFO: Loading xml content from https://static.staticsave.com/uptimerebootv1/testingconfig.xml into variables
+2023-04-25 13:25:16 INFO: Successfully loaded xml content from https://static.staticsave.com/uptimerebootv1/testingconfig.xml
+2023-04-25 13:25:16 INFO: ToastLogoImage appears to be hosted online. Will need to download the file
+2023-04-25 13:25:17 INFO: Successfully downloaded C:\Users\CPENCH~1\AppData\Local\Temp\ToastLogoImage.jpg from https://i.imgur.com/NCjIbXD.jpg
+2023-04-25 13:25:17 INFO: ToastHeroImage appears to be hosted online. Will need to download the file
+2023-04-25 13:25:18 INFO: Successfully downloaded C:\Users\CPENCH~1\AppData\Local\Temp\ToastHeroImage.jpg from https://i.imgur.com/CN85GYb.jpg
+2023-04-25 13:25:18 INFO: CreateScriptsAndProtocols set to True. Will allow creation of scripts and protocols
+2023-04-25 13:25:18 INFO: Script version: 2.3.0 matches value of ScriptsAndProtocolsVersion in registry. Not creating custom scripts and protocols
+2023-04-25 13:25:18 INFO: Running Get-DeviceUptime function
+2023-04-25 13:25:18 INFO: PendingRebootUptime set to True. Checking for device uptime. Current uptime is: 8 days
+2023-04-25 13:25:18 INFO: Greeting with given name selected. Replacing HeaderText
+2023-04-25 13:25:18 INFO: Greeting with Good afternoon
+2023-04-25 13:25:18 INFO: Running Get-GivenName function
+2023-04-25 13:25:34 ERROR: Current security context is not associated with an Active Directory domain or forest.
+2023-04-25 13:25:34 INFO: Given name not found in AD or no local AD is available. Continuing looking for given name elsewhere
+2023-04-25 13:25:34 INFO: Given name found directly in registry: Christopher
+2023-04-25 13:25:34 INFO: Creating the xml for no dismiss button
+2023-04-25 13:25:34 INFO: Creating the xml for displaying the second action button: actionbutton2
+2023-04-25 13:25:34 WARNING: This will always enable both action buttons and the dismiss button
+2023-04-25 13:25:34 WARNING: Replacing any previous formatting of the toast xml
+2023-04-25 13:25:34 WARNING: Conditions for displaying toast notifications for UpgradeOS are not fulfilled
+2023-04-25 13:25:34 INFO: Toast notification is used in regards to pending reboot. Uptime count is greater than -1
+2023-04-25 13:25:34 INFO: Confirmed USER context before displaying toast
+2023-04-25 13:25:34 ERROR: Something went wrong when displaying the toast notification
+2023-04-25 13:25:34 ERROR: Make sure the script is running as the logged on user
+2023-04-25 13:59:10 INFO: Running supported version of Windows. Windows 10 and workstation OS detected
+2023-04-25 13:59:10 INFO: Script is initially running in USER context
+2023-04-25 13:59:10 INFO: Specified config file seems hosted [online]. Treating it accordingly
+2023-04-25 13:59:10 INFO: Successfully loaded https://static.staticsave.com/uptimerebootv1/testingconfig.xml
+2023-04-25 13:59:10 INFO: Loading xml content from https://static.staticsave.com/uptimerebootv1/testingconfig.xml into variables
+2023-04-25 13:59:10 INFO: Successfully loaded xml content from https://static.staticsave.com/uptimerebootv1/testingconfig.xml
+2023-04-25 13:59:10 INFO: ToastLogoImage appears to be hosted online. Will need to download the file
+2023-04-25 13:59:12 INFO: Successfully downloaded C:\Users\CPENCH~1\AppData\Local\Temp\ToastLogoImage.jpg from https://i.imgur.com/NCjIbXD.jpg
+2023-04-25 13:59:12 INFO: ToastHeroImage appears to be hosted online. Will need to download the file
+2023-04-25 13:59:13 INFO: Successfully downloaded C:\Users\CPENCH~1\AppData\Local\Temp\ToastHeroImage.jpg from https://i.imgur.com/CN85GYb.jpg
+2023-04-25 13:59:13 INFO: CreateScriptsAndProtocols set to True. Will allow creation of scripts and protocols
+2023-04-25 13:59:13 INFO: Script version: 2.3.0 matches value of ScriptsAndProtocolsVersion in registry. Not creating custom scripts and protocols
+2023-04-25 13:59:13 INFO: Running Get-DeviceUptime function
+2023-04-25 13:59:13 INFO: PendingRebootUptime set to True. Checking for device uptime. Current uptime is: 0 days
+2023-04-25 13:59:13 INFO: Greeting with given name selected. Replacing HeaderText
+2023-04-25 13:59:13 INFO: Greeting with Good afternoon
+2023-04-25 13:59:13 INFO: Running Get-GivenName function
+2023-04-25 13:59:24 ERROR: Current security context is not associated with an Active Directory domain or forest.
+2023-04-25 13:59:24 INFO: Given name not found in AD or no local AD is available. Continuing looking for given name elsewhere
+2023-04-25 13:59:24 INFO: Given name found directly in registry: Christopher
+2023-04-25 13:59:24 INFO: Creating the xml for no dismiss button
+2023-04-25 13:59:24 INFO: Creating the xml for displaying the second action button: actionbutton2
+2023-04-25 13:59:24 WARNING: This will always enable both action buttons and the dismiss button
+2023-04-25 13:59:24 WARNING: Replacing any previous formatting of the toast xml
+2023-04-25 13:59:24 WARNING: Conditions for displaying toast notifications for UpgradeOS are not fulfilled
+2023-04-25 13:59:24 INFO: Toast notification is used in regards to pending reboot. Uptime count is greater than -1
+2023-04-25 13:59:24 INFO: Confirmed USER context before displaying toast
+2023-04-25 13:59:24 ERROR: Something went wrong when displaying the toast notification
+2023-04-25 13:59:24 ERROR: Make sure the script is running as the logged on user
+2023-04-25 14:07:04 INFO: Running supported version of Windows. Windows 10 and workstation OS detected
+2023-04-25 14:07:04 INFO: Script is initially running in USER context
+2023-04-25 14:07:04 INFO: Specified config file seems hosted [online]. Treating it accordingly
+2023-04-25 14:07:04 INFO: Successfully loaded https://static.staticsave.com/uptimerebootv1/testingconfig.xml
+2023-04-25 14:07:04 INFO: Loading xml content from https://static.staticsave.com/uptimerebootv1/testingconfig.xml into variables
+2023-04-25 14:07:04 INFO: Successfully loaded xml content from https://static.staticsave.com/uptimerebootv1/testingconfig.xml
+2023-04-25 14:07:04 INFO: ToastLogoImage appears to be hosted online. Will need to download the file
+2023-04-25 14:07:05 INFO: Successfully downloaded C:\Users\CPENCH~1\AppData\Local\Temp\ToastLogoImage.jpg from https://i.imgur.com/NCjIbXD.jpg
+2023-04-25 14:07:05 INFO: ToastHeroImage appears to be hosted online. Will need to download the file
+2023-04-25 14:07:06 INFO: Successfully downloaded C:\Users\CPENCH~1\AppData\Local\Temp\ToastHeroImage.jpg from https://i.imgur.com/CN85GYb.jpg
+2023-04-25 14:07:06 INFO: CreateScriptsAndProtocols set to True. Will allow creation of scripts and protocols
+2023-04-25 14:07:06 INFO: Script version: 2.3.0 matches value of ScriptsAndProtocolsVersion in registry. Not creating custom scripts and protocols
+2023-04-25 14:07:06 INFO: Running Get-DeviceUptime function
+2023-04-25 14:07:07 INFO: PendingRebootUptime set to True. Checking for device uptime. Current uptime is: 0 days
+2023-04-25 14:07:07 INFO: Greeting with given name selected. Replacing HeaderText
+2023-04-25 14:07:07 INFO: Greeting with Good afternoon
+2023-04-25 14:07:07 INFO: Running Get-GivenName function
+2023-04-25 14:07:18 ERROR: Current security context is not associated with an Active Directory domain or forest.
+2023-04-25 14:07:18 INFO: Given name not found in AD or no local AD is available. Continuing looking for given name elsewhere
+2023-04-25 14:07:18 INFO: Given name found directly in registry: Christopher
+2023-04-25 14:07:18 INFO: Creating the xml for no dismiss button
+2023-04-25 14:07:18 INFO: Creating the xml for displaying the second action button: actionbutton2
+2023-04-25 14:07:18 WARNING: This will always enable both action buttons and the dismiss button
+2023-04-25 14:07:18 WARNING: Replacing any previous formatting of the toast xml
+2023-04-25 14:07:19 WARNING: Conditions for displaying toast notifications for UpgradeOS are not fulfilled
+2023-04-25 14:07:19 INFO: Toast notification is used in regards to pending reboot. Uptime count is greater than -1
+2023-04-25 14:07:19 INFO: Confirmed USER context before displaying toast
+2023-04-25 14:07:19 ERROR: Something went wrong when displaying the toast notification
+2023-04-25 14:07:19 ERROR: Make sure the script is running as the logged on user
