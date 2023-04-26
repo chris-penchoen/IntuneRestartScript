@@ -12,7 +12,7 @@ PARAMETER Config
     Specify the path for the config.xml. If none is specified, the script uses the local config.xml
 
 NOTES
-    Filename: Lululemon-ToastNotification.ps1
+    Filename: lulu-toast-notifications.ps1
     Version: 2.3.1
     Author: Chris Penchoen
     GitHub: https://github.com/chris-penchoen
