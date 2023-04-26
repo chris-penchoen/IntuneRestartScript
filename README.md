@@ -1,21 +1,33 @@
 SYNOPSIS
-    Create nice toast notifications for the logged on user in Windows 10.
+
+Create nice toast notifications for the logged on user in Windows 10.
 
 DESCRIPTION
-    Everything is customizeable through config-toast.xml.
-    Config-toast.xml can be locally, hosted online in blob storage or set to an UNC path with the -Config parameter.
-    This way you can quickly modify the configuration without the need to push new files to the computer running the toast.
-    Can be used for improving the numbers in Windows Servicing as well as kindly reminding users of pending reboots (and a bunch of other use cases as well).
-    All actions are logged to a local log file in AppData\Roaming\ToastNotificationScript\New-ToastNotification.log.
+
+Everything is customizable through config-toast.xml.
+
+Config-toast.xml can be locally, hosted online in blob storage or set to an UNC path with the -Config parameter.
+
+This way you can quickly modify the configuration without the need to push new files to the computer running the toast.
+
+Can be used for improving the numbers in Windows Servicing as well as kindly reminding users of pending reboots (and a bunch of other use cases as well).
+
+All actions are logged to a local log file in AppData\Roaming\ToastNotificationScript\New-ToastNotification.log.
 
 PARAMETER Config
-    Specify the path for the config.xml. If none is specified, the script uses the local config.xml
+
+Specify the path for the config.xml. If none is specified, the script uses the local config.xml
 
 NOTES
-    Filename: lulu-toast-notifications.ps1
-    Version: 2.3.1
-    Author: Chris Penchoen
-    GitHub: https://github.com/chris-penchoen
+
+Filename: lulu-toast-notifications.ps1
+
+Version: 2.3.1
+
+Author: Chris Penchoen
+
+GitHub: https://github.com/chris-penchoen
+
     
 
     Version history:
