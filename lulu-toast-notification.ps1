@@ -142,10 +142,12 @@
                         - This also creates the custom notifcation app with a prevention from disabling the toast notifications via the UI
 
     2.3.1 -   Updated and modified script and config.xml for Lululemon specific use case 
+                Current issues: 
                 - Hosted UptimeConfig.xml on StaticSave temporarily; needs to be hosted on Azure Storage 
                 - Hosted lululemon-logo-48x48.jpg and ToastHeroImageDefault-2.jpg to Imgur; also need to move to Azure Storage 
-                - Current issues: 
-                    -Script currently is not working on corp laptops, currently fails at Display-ToastNotification function -- likely related to Notifications & Actions being unavailable in Settings. Fails with following error logs:
+                - Script is not digitially signed, requires Set-ExecutionPolicy bypass 
+                - Need to clean up useless CM client functions
+                - Script currently is not working on corp laptops, currently fails at Display-ToastNotification function -- likely related to Notifications & Actions being unavailable in Settings. Fails with following error logs:
                         INFO: Confirmed USER context before displaying toast
                         ERROR: Something went wrong when displaying the toast notification
                         ERROR: Make sure the script is running as the logged on user
@@ -153,7 +155,7 @@
                 
        
 .LINK
-    https://www.imab.dk/windows-10-toast-notification-script/
+    https://github.com/chris-penchoen/Lululemon-Intune-Restart-Toast-Notification-Script
 #> 
 
 [CmdletBinding()]
