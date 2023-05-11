@@ -26,7 +26,7 @@
 	<Option Name="LogoImageName" Value="https://i.imgur.com/NCjIbXD.jpg" /> <!-- cpenchoen customization: Changed to public imgur URL pending Ed getting azure storage for images and xml --> <!-- File name of the image shown as logo in the toast notoification  -->
 	<Option Name="HeroImageName" Value="https://i.imgur.com/CN85GYb.jpg" /> <!-- cpenchoen customization: Changed to public imgur URL pending Ed getting azure storage for images and xml --> <!-- File name of the image shown in the top of the toast notification -->	
 	<Option Name="ActionButton1" Enabled="True" />	<!-- Enables or disables the action button. -->
-	<Option Name="ActionButton2" Enabled="True" /> <!-- cpenchoen customization: Changed to 'True' because it was 'False' but theres an action?? -->	<!-- Enables or disables the action button. -->
+	<Option Name="ActionButton2" Enabled="False" /> <!-- changed to False until reboot policy written and published to SharePoint -->	<!-- Enables or disables the action button. -->
 	<Option Name="DismissButton" Enabled="False" /> <!-- cpenchoen customization: Changed to 'False' --> <!-- Enables or disables the dismiss button. -->
 	<Option Name="SnoozeButton" Enabled="False" /> <!-- Enabling this option will always enable action button and dismiss button -->
 	<Option Name="Scenario" Type="alarm" />	<!-- cpenchoen customization: fixed comment missing 'alarm' as an option for variable --> <!-- Possible values are: reminder | short | long | alarm -->
