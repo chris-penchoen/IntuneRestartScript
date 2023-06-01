@@ -6,7 +6,7 @@
 	<Feature Name="PendingRebootCheck" Enabled="False" /> <!-- lululemon customization: Changed to 'False' --> <!-- Enables the toast for reminding users of pending reboots found in registry/WMI. Might not suit ConfigMgr all too well, as if a pending reboot is found, further deployments won't run -->
 	<Feature Name="ADPasswordExpiration" Enabled="False" />	<!-- Enables the toast for reminding users of expiring Active Directory passwords -->
 	<Option Name="TargetOS" Build="22621" /> <!-- cpenchoen customization: Changed to '22621' actually not needed since scirpt isn't being used to handle OS upgrade notifications -->  <!-- The actual build number of the targeted OS. 19041 = 2004 | 18363 = 1909 | 18362 = 1903 | 17763 = 1809. This option has no effect if OSUpgrade is set to False -->
-	<Option Name="MaxUptimeDays" Value="-1" />	<!-- cpenchoen customization: changed to '-1' for testing --> <!-- When using the toast for checking for pending reboots. A reboot is considered pending if computer uptime exceeds the value set here -->
+	<Option Name="MaxUptimeDays" Value="1" />	<!-- cpenchoen customization: changed to '-1' for testing --> <!-- When using the toast for checking for pending reboots. A reboot is considered pending if computer uptime exceeds the value set here -->
 	<Option Name="PendingRebootUptimeText" Enabled="True" /> <!-- lululemon customization: Changed to 'True' --> <!-- Adds an additional group to the toast with text about the uptime of the computer -->
 	<Option Name="PendingRebootCheckText" Enabled="False" /> <!-- lululemon customization: Changed to 'False' --> <!-- Adds an additional group to the toast with text -->
 	<Option Name="ADPasswordExpirationText" Enabled="False" />	<!-- Adds an additional group to the toast with text -->
@@ -23,15 +23,14 @@
 	<Option Name="UseSoftwareCenterApp" Enabled="False" /> <!-- lululemon customization: Changed to 'False' --> <!-- The app in Windows doing the actual notification - can't be both SoftwareCenter and Powershell -->
 	<Option Name="UsePowershellApp" Enabled="False" />	<!-- cpenchoen customization: changed to True since this to be deployed via Intune. --> <!-- The app in Windows doing the actual notification - can't be both SoftwareCenter and Powershell -->
 	<Option Name="CustomAudio" Enabled="False" />	<!-- Enable or disable a custom speak scenario, where the text will be read out aloud -->
-	<Option Name="LogoImageName" Value="https://i.imgur.com/NCjIbXD.jpg" /> <!-- cpenchoen customization: Changed to public imgur URL pending Ed getting azure storage for images and xml --> <!-- File name of the image shown as logo in the toast notoification  -->
-	<Option Name="HeroImageName" Value="https://i.imgur.com/CN85GYb.jpg" /> <!-- cpenchoen customization: Changed to public imgur URL pending Ed getting azure storage for images and xml --> <!-- File name of the image shown in the top of the toast notification -->	
-	<Option Name="ActionButton1" Enabled="True" />	<!-- Enables or disables the action button. -->
-	<Option Name="ActionButton2" Enabled="True" /> <!-- cpenchoen customization: Changed to 'True' because it was 'False' but theres an action?? -->	<!-- Enables or disables the action button. -->
-	<Option Name="DismissButton" Enabled="False" /> <!-- cpenchoen customization: Changed to 'False' --> <!-- Enables or disables the dismiss button. -->
-	<Option Name="SnoozeButton" Enabled="False" /> <!-- Enabling this option will always enable action button and dismiss button -->
+	<Option Name="LogoImageName" Value="https://emintuneblobstorage.blob.core.windows.net/lulureboottoastnotification/lulu-toast-notification-hero-logo.jpg" /> <!-- cpenchoen customization: Changed to Azure Storage Blob URL -->
+	<Option Name="HeroImageName" Value="https://emintuneblobstorage.blob.core.windows.net/lulureboottoastnotification/lulu-toast-notification-hero-image.jpg" /> <!-- cpenchoen customization: Changed to Azure Storage Blob URL  -->
+	<Option Name="ActionButton2" Enabled="False" /> <!-- cpenchoen customization: Changed to False until documentation can be written around reboot policy -->	<!-- Enables or disables the action button. -->
+	<Option Name="DismissButton" Enabled="True" /> <!-- cpenchoen customization: Changed to 'True' --> <!-- Enables or disables the dismiss button. -->
+	<Option Name="SnoozeButton" Enabled="True" /> <!-- Enabling this option will always enable action button and dismiss button -->
 	<Option Name="Scenario" Type="alarm" />	<!-- cpenchoen customization: fixed comment missing 'alarm' as an option for variable --> <!-- Possible values are: reminder | short | long | alarm -->
 	<Option Name="Action1" Value="ToastReboot:" />	<!-- Action taken when using the Action button. Can be any protocol in Windows -->
-	<Option Name="Action2" Value="https://corporate.lululemon.com/media/contact-us" /> <!-- lululemon customization: Changed to 'https://corporate.lululemon.com/media/contact-us' --> <!-- Action taken when using the Action button. Can be any protocol in Windows -->
+	<Option Name="Action2" Value="https://path.to.reboot.policy/" /> <!-- cpenchoen customization: changed to placeholder URL for reboot policy documentation --> <!-- Action taken when using the Action button. Can be any protocol in Windows -->
 	<Text Option="GreetGivenName" Enabled="True" />	<!-- Displays the toast with a personal greeting using the users given name retrieved from AD. Will try retrieval from WMI of no local AD -->
 	<Text Option="MultiLanguageSupport" Enabled="False" /> <!-- Enable support for multiple languages. If set to True, the toast notification will look for the users language culture within the config file -->
 	<en-US> <!-- Default fallback language. This language will be used if MultiLanguageSupport is set to False or if no matching language is found -->
@@ -45,9 +44,9 @@
         <Text Name="SnoozeButton">Snooze</Text> <!-- Text on the SnoozeButton if enabled -->
         <Text Name="AttributionText">www.lululemon.com</Text> <!-- lululemon customization: Changed to a lululemon corporate website url --> 
         <Text Name="HeaderText"></Text> <!-- cpenchoen customization: removed HeaderText -->
-        <Text Name="TitleText">Your computer needs to be rebooted</Text> <!--cpenchoen customization: replaced TitleText 'Your computer needs to restart!'-->
-        <Text Name="BodyText1">this is a test notification.  </Text> <!-- cpenchoen customization: Replaced BodyText1 "Restarting your computer on a regular basis ensures a secure and stable Windows" --> 
-        <Text Name="BodyText2">if you're seeing this toast, then the test was successful. please ping chris and let him know it worked.</Text> <!-- cpenchoen customization: replaced BodyText2 'For security and stability reasons, we kindly ask you to restart your computer. Thank you in advance.' -->
+        <Text Name="TitleText">Your computer needs to restart!</Text> <!--cpenchoen customization: replaced TitleText 'Your computer needs to restart!'-->
+        <Text Name="BodyText1">Restarting your computer on a regular basis ensures a secure and stable Windows</Text> <!-- cpenchoen customization: Replaced BodyText1 "Restarting your computer on a regular basis ensures a secure and stable Windows" --> 
+        <Text Name="BodyText2">For security and stability reasons, we ask you to restart your computer as soon as possible.</Text> <!-- cpenchoen customization: replaced BodyText2 'For security and stability reasons, we kindly ask you to restart your computer. Thank you in advance.' -->
         <Text Name="SnoozeText">Click snooze to be reminded again in:</Text>
         <Text Name="DeadlineText">Your deadline is:</Text>
         <Text Name="GreetMorningText">Good morning</Text>
