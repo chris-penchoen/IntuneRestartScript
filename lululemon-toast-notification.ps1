@@ -161,7 +161,7 @@
 [CmdletBinding()]
 param(
     [Parameter(HelpMessage='Path to XML Configuration File')]
-    [string]$Config = "https://static.staticsave.com/uptimerebootv1/testingconfig.xml"
+    [string]$Config = "https://emintuneblobstorage.blob.core.windows.net/lulureboottoastnotification/lulu-toast-notification-config-reboot.xml"
 )
 
 #region Functions
